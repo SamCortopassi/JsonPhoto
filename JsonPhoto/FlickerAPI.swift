@@ -14,8 +14,8 @@ enum Method: String {
 
 struct FlickerAPI {
     
-    private static let baseURLString = "https:api.flicker.com/services/rest"
-    private static let apiKey = "a6d819499131071f158fd740860a5a88"
+    private static let baseURLString = "https://www.flickr.com/services/apps/create/noncommercial/?"
+    private static let apiKey = "43c5e794edfa00dbbbfd6827f21b4168"
     
     
     private static func flickerURL(method: Method, parameters: [String:String]?) -> URL {
