@@ -15,6 +15,7 @@
 		66F27F4F2242CB9F00160F37 /* JsonPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F27F4E2242CB9F00160F37 /* JsonPhotoUITests.swift */; };
 		66F27F5D2242D20200160F37 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F27F5C2242D20200160F37 /* PhotosViewController.swift */; };
 		66F27F5F2242DF1900160F37 /* FlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F27F5E2242DF1900160F37 /* FlickerAPI.swift */; };
+		66F27F612242ED0900160F37 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F27F602242ED0900160F37 /* PhotoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		66F27F502242CB9F00160F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66F27F5C2242D20200160F37 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		66F27F5E2242DF1900160F37 /* FlickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAPI.swift; sourceTree = "<group>"; };
+		66F27F602242ED0900160F37 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				66F27F5C2242D20200160F37 /* PhotosViewController.swift */,
 				66F27F322242CB9E00160F37 /* Main.storyboard */,
 				66F27F5E2242DF1900160F37 /* FlickerAPI.swift */,
+				66F27F602242ED0900160F37 /* PhotoStore.swift */,
 				66F27F352242CB9F00160F37 /* Assets.xcassets */,
 				66F27F372242CB9F00160F37 /* LaunchScreen.storyboard */,
 				66F27F3A2242CB9F00160F37 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				66F27F5D2242D20200160F37 /* PhotosViewController.swift in Sources */,
 				66F27F2F2242CB9E00160F37 /* AppDelegate.swift in Sources */,
+				66F27F612242ED0900160F37 /* PhotoStore.swift in Sources */,
 				66F27F5F2242DF1900160F37 /* FlickerAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
