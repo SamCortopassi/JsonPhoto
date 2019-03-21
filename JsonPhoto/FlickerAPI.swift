@@ -9,16 +9,16 @@
 import Foundation
 
 enum Method: String {
-    case interestingPhotos = "flicker.interestingness.getList"
+    case interestingPhotos = "flickr.interestingness.getList"
 }
 
-struct FlickerAPI {
+struct FlickrAPI {
     
-    private static let baseURLString = "https://www.flickr.com/services/apps/create/noncommercial/?"
-    private static let apiKey = "43c5e794edfa00dbbbfd6827f21b4168"
+    private static let baseURLString = "https://api.flickr.com/services/rest"
+    private static let apiKey = "a6d819499131071f158fd740860a5a88"
     
     
-    private static func flickerURL(method: Method, parameters: [String:String]?) -> URL {
+    private static func flickrURL(method: Method, parameters: [String:String]?) -> URL {
         var components = URLComponents(string: baseURLString)!
         
         var queryItems = [URLQueryItem]()
@@ -47,7 +47,7 @@ struct FlickerAPI {
     }
     
     static var interestingPhotosURL: URL {
-        return flickerURL(method: .interestingPhotos, parameters: ["extras": "url_h,date_taken"])
+        return flickrURL(method: .interestingPhotos, parameters: ["extras": "url_h,date_taken"])
     }
     
 }
